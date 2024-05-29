@@ -1,0 +1,124 @@
+---
+title: "See you at the ~~finish~~ posterior line"
+subtitle: "Stats 115 discussion"
+date: January 24, 2024
+format: 
+  revealjs:
+    incremental: true
+    scrollable: true
+    self-contained: true
+---
+
+```{r}
+#| include: false
+library(countdown)
+```
+
+# {background-image="slides-figures/start_line.jpg" background-position="right" background-size="contain"}
+
+# Hi there!
+. . .
+
+I'm [Federica Zoe Ricci](https://federicazoe.github.io/).
+
+. . .
+
+PhD student in Statistics at UCI.
+
+. . .
+
+My research: Bayesian models for network data (e.g. social networks) and multi-subject time-series observations (e.g. neuroscience studies).
+
+. . .
+
+
+I also work with prof. Dogucu on Stats Education research
+
+. . .
+
+
+Today's activity is not research..unless you want to!
+
+
+## Today's discussion
+
+What do we want to learn today?
+
+- see examples of where priors come from 
+
+- practice choosing priors and realize that different priors can be reasonable!
+
+- practice the Beta-Binomial model (that you've learned on Monday)
+
+. . .
+
+..all of this by means of a **game**!
+
+## What's the game going to be like?
+
+You're part of a team
+
+In this game, you race a chosen car on a chosen track
+
+Let's start by taking a quick look at it: [https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html](https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html)
+
+## Logistics
+
+- Form teams
+
+- Distribute material to teams
+
+- Open letters and distribute roles among team members
+
+- Each team member, take 2 min to read letter 
+
+- Annotator copies the .qmd discussion handout and opens it
+
+- Teams work on the discussion handout
+  - Team introductions (3 min)
+  - Choose prior
+  - Play game (Player ID/Group ID; Finishing time!!!)
+  - Derive posterior
+  
+- Submit handout on gradescope
+
+## Teams results
+  
+- One Danica, one Lewis and one Mario team will present their Quarto files
+
+## Some reflections
+
+- what were the differences between these scenarios? 
+
+. . . 
+
+[thoughts: different prior information direction and strengths, different prior choices, different data, different players!] 
+
+- if different priors can be reasonable, what could be a natural thing to do when analyzing data?
+
+. . . 
+
+[thoughts: check the sensibility of your results to different priors] 
+
+- Why were prior especially important to this analysis?
+
+. . .
+
+[thoughts: only up to 5 observations per team] 
+
+#  {background-image="slides-figures/finish_line.jpg" background-position="right" background-size="contain"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 ---
-footer: "federicazoe.github.io/bayes-games"
+footer: "[federicazoe.github.io/bayes-games](https://federicazoe.github.io/bayes-games)"
 format: 
   revealjs:
     slide-number: true

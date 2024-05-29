@@ -1,0 +1,146 @@
+---
+title: "See you at the posterior line"
+subtitle: "Discussion Handout"
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r}
+#| message: false
+#| echo: false
+library(tidyverse, quietly = TRUE)
+library(bayesrules)
+```
+
+# Introducing your team (2 min)
+
+Introduce yourself to the team and tell them what is your most unrealistic new-year resolution.
+
+Write below the team name, team-member names and the most unrealistic resolution among you all.
+
+```{r}
+
+team_name <- "Your team name, as indicated on the envelope you received"
+
+facilitator_name <- "First Name, Last Name"
+summarizer_name <- "First Name, Last Name"
+annotator_name <- "First Name, Last Name"
+timer_name <- "First Name, Last Name"
+speaker_name <- "First Name, Last Name" # (Leave this blank if team has 4 members)
+
+most_unrealistic_resolution <- "The most unrealistic new-year resolution of this team"
+
+sprintf("This is team %s!", team_name)
+sprintf("The facilitator is %s", facilitator_name)
+sprintf("The summarizer is %s", summarizer_name)
+sprintf("The annotator is %s", annotator_name)
+sprintf("The timer is %s", timer_name)
+sprintf("The speaker is %s", speaker_name)
+sprintf("Our most unrealistic new year resolution is %s", 
+        most_unrealistic_resolution)
+
+```
+
+## Choosing your prior (5-10 min)
+
+Your client asks that you take into account their prior information in your analysis.
+So let's use this prior information to choose a prior distribution.
+There is not a single "best" way of doing this, here we just want you to come up with something reasonable that you can explain to your client.
+
+1.  **Briefly summarize all your prior information.**
+
+Your answer here.
+
+2.  **Where would you center your prior for the probability that the hot rod tires would be faster than the tiny tires? Explain your reasoning.**
+
+Your answer here.
+
+3.  **What are some strengths and pitfalls of your prior information?**
+
+Your answer here.
+
+4.  **Play around with values for** $alpha$ **and** $beta$ **below that give you a prior that looks reasonable enough to you. Briefly explain why it is reasonable (just the intuition)**.
+
+```{r}
+
+alpha <- 1
+beta <- 1
+plot_beta(alpha, beta)
+
+```
+
+Your answer here.
+
+
+## Data collection (5-10 min)
+
+
+Whenever playing set **Player ID = RacingStats** and **Group ID = TeamRole**, e.g. **Group ID = Danica1Facilitator**.
+
+First, each team member will do one trial with the Classic car on the Eight track:
+
+<https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html>
+
+Then each team member will race the **HotRod car** on the **Eight** track, once with the HotRod tires and once with the Tiny tires:
+
+-   Facilitator and Annotator race *first* with the HotRod tires
+
+-   Summarizer, Timer and Speaker (if present) race *first* with the Tiny tires
+
+IMPORTANT: **Remember to note your finishing times!!!**
+
+Then complete the code below.
+
+```{r}
+
+# Assign value 1 if the finishing time with the HotRod tires was shorter than
+# your finishing time with the Tiny tires, 0 otherwise
+
+facilitator <- 0
+annotator <- 0
+summarizer <- 0
+timer <- 0
+speaker <- 0
+
+# Uncomment the following line if your team has 4 people
+n_hotrod_faster <- facilitator + annotator + summarizer + timer
+
+# Uncomment the following line if your team has 5 people
+n_hotrod_faster <- facilitator + annotator + summarizer + timer + speaker
+
+# Uncomment the following line
+sprintf("The number of team members who finished the race faster with the Hotrod tire  was %s", n_hotrod_faster)
+
+```
+
+## Posterior summary (5 min)
+
+Now you're ready to combine your prior information with your observations.
+
+Complete the code below, then answer the questions.
+
+```{r}
+
+# Assign the number of team members (4 or 5) to n
+n <- 0
+
+# The number of successes y is the number of times the hotrod tires 
+# led to a faster finish time. 
+# Summarize your posterior
+summarize_beta_binomial(alpha, beta, y = n_hotrod_faster, n)
+
+# Plot your posterior
+plot_beta_binomial(alpha, beta, y = n_hotrod_faster, n)
+
+
+```
+
+-   **What does your posterior suggests in terms of the probability of finishing the Eight track race faster with the HotRod tires than with the Tiny ones, on a HotRod car?**
+
+Your answer here.
+
+-   **What are some limitations of this study?**
+
+Your answer here.
+
