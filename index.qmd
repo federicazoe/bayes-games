@@ -74,6 +74,6 @@ We would like to thank Tyler George, Abhishek Chakraborty and Shonda Kuiper for 
 Thanks to [Catalina Medina](https://catalinamedina.github.io/) and Zahra Mohslemi for their help with printing the material and preparing team envelopes prior to the discussion (lab) session where the activity was taught.
 
 <figure>
-<img src="figures/fede-cat-at-work.jpg" style="position:relative; left:0px; width: 30%" alt="Photo of two smiling persons, working on the floor, surrounded by colored papers, envelopes, scissors and glue.">
+<img src="figures/fede-cat-at-work.JPG" style="position:relative; left:0px; width: 30%" alt="Photo of two smiling persons, working on the floor, surrounded by colored papers, envelopes, scissors and glue.">
 <figcaption>Catalina (left) and Federica (right) working to prepare team envelopes on January 24, 2024.</figcaption>
 </figure>
