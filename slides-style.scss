@@ -1,0 +1,195 @@
+//Fonts
+
+/*-- scss:defaults --*/
+
+// Logo colors
+$slideTitleColor: black;
+$slideSectionColor: black;
+$linkColor: #55a2d1;
+
+$mainFontSize: 35px;
+$backgroundColor: #fefaf3;
+$mainColor: $slideTitleColor;
+
+// Links and actions
+$linkColorHover: darken( $linkColor, 20% );
+
+
+/*-- scss:rules --*/
+
+
+.title-slide .title {
+  text-align: center
+}
+
+.reveal .footer > * {
+  font-size: 10px;
+  color: #999999;
+}
+
+      
+.slide-background {
+  background-color: #fefaf3;
+}
+
+.reveal .slide-logo {
+  height: 100px !important;
+  width: 100px!important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.reveal section h1 {
+  color: $slideSectionColor;
+  font-size: 70px;
+}
+
+.reveal section h2 {
+  color: #55a2d1;
+  font-size: 70px;
+}
+
+.reveal section h3 {
+  color: $slideSectionColor;
+  font-size: 40px;
+;
+}
+
+
+.reveal section h4 {
+  color: black;
+  font-size: 25px;
+;
+}
+
+.reveal section a {
+  color: $linkColor;
+  text-decoration: underline;
+}
+
+
+.reveal .slide .note {
+  border-left: 5px solid  #000000;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background:#fcece0;
+}
+
+
+.reveal .game {
+  background-color: #c8f0eb;
+  font-weight: bold;
+}
+
+.reveal .fun {
+  background-color: #fdc9da;
+  font-weight: bold;
+}
+
+.reveal .interactive {
+  background-color: #CCD4FF;
+  font-weight: bold;
+}
+
+.reveal .stats {
+  background-color: #fee7e2;
+  font-weight: bold;
+}
+
+.reveal .data {
+  background-color: #fff2cc;
+  font-weight: bold;
+}
+
+.reveal .team {
+  background-color: #cfe2f3;
+  font-weight: bold;
+}
+
+
+
+
+
+.reveal .light-blue {
+  color: #55a2d1;
+}
+
+.reveal .light-blue-2 {
+  color: #348abf;
+}
+
+.reveal .maroon {
+  color: maroon;
+}
+
+
+
+.reveal .black {
+  color: black;
+}
+.reveal .white {
+  color: white;
+}
+
+.reveal .orange {
+  color: #ce7e00;
+}
+
+.reveal .boldorange {
+  color: #ce7e00;
+  font-weight: bold;
+}
+
+.reveal .dark-pink {
+  color: #964572;
+}
+
+.reveal .dark-gray {
+  color: #999999;
+}
+
+.reveal .vsmall {
+  font-size: 15px;
+}
+
+.reveal .small {
+  font-size: 25px;
+}
+
+.reveal .smallerh2 {
+  font-size: 50px;
+  color: #55a2d1;
+
+}
+
+
+.reveal .increased-line p {
+    line-height: 3;
+}
+
+* {
+  color:#000000;
+}
+
+// Uncomment to move slide number to bottom right
+//.slide-number, .reveal.has-logo .slide-number {
+//  bottom: 5% !important;
+//  left: 93% !important;
+//  top: unset !important;
+//}
+
+.font25{font-size:25px}
+.font50{font-size:50px}
+.font75{font-size:75px}
+.font100{font-size:100px}
+.font150{font-size:150px}
+
+
+.v-center-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
