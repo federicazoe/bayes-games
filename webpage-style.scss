@@ -21,15 +21,18 @@ $headings-font-weight:  500 !default;
 
 /*-- scss:rules --*/
 
+
 .quarto-title-block .quarto-title-banner {
+  background-image: url(https://github.com/federicazoe/bayes-games/blob/main/figures/game-icon.png?raw=true);
   background-color: #d1e6f2;
-  background-size: 7%;
-  background-position: right;
+  background-size: 10%;
+  background-position: left;
   background-repeat: no-repeat;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-right: 50px;
   background-origin: content-box;
 }
+
 
 .quarto-title {
   font-size: 300px;
