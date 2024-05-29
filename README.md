@@ -1,18 +1,24 @@
-# See you at the Posterior Line: using an online racing game to teach Bayesian data analysis
+# See you at the Posterior Line: <br> using an online racing game to teach Bayesian data analysis
 
 Activity created by [Federica Zoe Ricci](https://federicazoe.github.io/) and [Mine Dogucu](https://www.minedogucu.com/) to practice the Beta-Binomial model. The activity is designed around the online racing game [Racer](https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html).
 
-This activity was [presented at eCOTS 2024](https://www.causeweb.org/cause/ecots/ecots24/program/posters/19). The slides are available [here](https://federicazoe.github.io/bayes-games).
+This work was [presented at eCOTS 2024](https://www.causeweb.org/cause/ecots/ecots24/program/posters/19). The slides are available [here](https://federicazoe.github.io/bayes-games). 
+
+## Abstract
+
+_Where do priors come from? Should there only be one correct prior? What can people do with Bayesian statistics in real life?’ These are common questions students have when introduced to Bayesian ideas, and providing satisfying answers can be challenging. We present an activity designed to make students practice the Bayesian sequential-learning framework in a realistic and fun setting, based on the Racer game (from Stat2labs.com). Acting like the analysts of a racing team, students are asked to help their manager decide which type of tires to use for an upcoming race, based both on prior knowledge from their team’s engineers and on data they collect in class by playing the racing game. Some teams discuss with the class: what prior distribution they chose, the data they collected and their posteriors. As some teams received different prior information, students reflect on the legitimacy of choosing different priors and on how they all used Bayesian statistics to quantify uncertainty in this problem. We discuss our experience with implementing this activity for a discussion (i.e., lab) session of an Introduction to Bayesian Data Analysis class with upper-level undergraduates at a research university and the students' perception of this activity as reported in a survey._
+
+## Material
 
 The folder [activity-material](https://github.com/federicazoe/bayes-games/activity-material) includes:
 
-- `team-names.md`: names of the three team types, with a short bio of the person inspiring the name. These were used to create team-specific (physical) envelopes with team names printed on them e.g. team-danica-1, team-danica-2, ..., team-lewis-1, team-lewis-2, ..., team-mario-1, team-mario-2, ...
+- `team-names.md`: names of three team types, with a short bio of the person inspiring the name. Names and bios were used to label team-specific, physical envelopes with team names printed on them e.g. team-danica-1, team-danica-2, ..., team-lewis-1, team-lewis-2, ..., team-mario-1, team-mario-2, ...
 
-- `team-scenarios.md`: prior information given to different team types. A copy for each team member was printed and included in the teams' envelopes.
+- `team-scenarios.md`: prior information given to different team types. A copy of this information was printed for each team member  and included in teams' envelopes.
 
 - `team-member-roles.md`: different team roles were assigned to team members at random (by including cards with the role names in team envelopes' and having students distribute these cards).
 
-- `discussion-handout.qmd`: template to fill out for each team, that guides through the activity, has questions and code.
+- `discussion-handout.qmd`: template to fill out for each team, that guides through the activity, has questions and code. Each team made their own copy of this file, that they accessed via a link on the course's website.
 
 - `discussion-slides.qmd`: slides used in class to introduce and run the activity.
 
@@ -33,3 +39,5 @@ The folder [activity-material](https://github.com/federicazoe/bayes-games/activi
 - Hoegh, A. (2020). Why Bayesian ideas should be introduced in the statistics curricula and how to do so. Journal of Statistics Education, 28(3), 222-228.
 
 - Hu, J., & Dogucu, M. (2022). Content and computing outline of two undergraduate Bayesian courses: Tools, examples, and recommendations. Stat, 11(1), e452.
+
+## Acknowledgements
