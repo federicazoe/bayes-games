@@ -1,7 +1,7 @@
 # See you at the Posterior Line: <br> using an online racing game to teach Bayesian data analysis
 
-Activity created by [Federica Zoe Ricci](https://federicazoe.github.io/) and [Mine Dogucu](https://www.minedogucu.com/) to practice the Beta-Binomial model. The activity is designed around the online racing game [Racer](https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html).
-
+Activity created by [Federica Zoe Ricci](https://federicazoe.github.io/) and [Mine Dogucu](https://www.minedogucu.com/) to practice the Beta-Binomial model.\
+The activity is designed around the online racing game [Racer](https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html).\
 This work was [presented at eCOTS 2024](https://www.causeweb.org/cause/ecots/ecots24/program/posters/19). The slides are available [here](https://federicazoe.github.io/bayes-games). 
 
 ## Abstract
@@ -40,4 +40,19 @@ The folder [activity-material](https://github.com/federicazoe/bayes-games/activi
 
 - Hu, J., & Dogucu, M. (2022). Content and computing outline of two undergraduate Bayesian courses: Tools, examples, and recommendations. Stat, 11(1), e452.
 
+## Funding
+
+<table>
+  <tr style="text-align: left"> 
+    <td> <img src="slides-figures/hpi-logo.jpeg" align="center" alt="HPI logo" width="120" /> </td>
+    <td style="text-align: left"> Federica Zoe Ricci was supported by a fellowship of the <a href="https://hpi.ics.uci.edu/" target="_blank"> HPI Research Center in Machine Learning and Data Science at UCI </a>. </td>
+  </tr>   
+</table>
+
 ## Acknowledgements
+
+We would like to thank Tyler George, Abhishek Chakraborty and Shonda Kuiper for their [USCOTS 2023 workshop _Improving students' communication about data using online statistical games_](https://www.causeweb.org/cause/uscots/uscots23/w08-improving-students-communication-about-data-using-online-statistical-games-room), that inspired this work.
+
+Thanks to [Catalina Medina](https://catalinamedina.github.io/) and Zahra Mohslemi for their help with printing the material and preparing team envelopes prior to the discussion (lab) session where the activity was taught.
+
+
