@@ -1,0 +1,80 @@
+//Fonts
+
+/*-- scss:defaults --*/
+
+// Logo colors
+$blueColor: #55a2d1;
+$orangeColor: #f58200;
+$backgroundWhite: #fefaf3;
+
+// Font colors
+$link-color: #55a2d1;
+
+// Font size
+$font-size-root: 14px;
+
+// TOC
+$toc-color: #f58200;
+
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+
+/*-- scss:rules --*/
+
+.quarto-title-block .quarto-title-banner {
+  background-color: #d1e6f2;
+  background-size: 7%;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-right: 50px;
+  background-origin: content-box;
+}
+
+.quarto-title {
+  font-size: 300px;
+  color: $orangeColor;
+}
+
+b, strong {
+    color: $orangeColor;
+}
+
+/*timeline from https://bootsnipp.com/snippets/xrKXW* with some modifications*/
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: $blueColor;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid $orangeColor;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/*end of timeline*/
+
+h6 {
+  font-weight: bold;
+}

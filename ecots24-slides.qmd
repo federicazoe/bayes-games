@@ -1,0 +1,408 @@
+---
+footer: "[federicazoe.github.io/bayes-games](https://federicazoe.github.io/bayes-games)"
+format: 
+  revealjs:
+    slide-number: true
+    theme: ["slides-style.scss"]
+    menu: false
+    embed-resources: true
+    
+---
+
+##  {.center}
+
+<h1 style="text-align: center">
+See you at the [posterior]{.orange} line
+</h1>
+
+
+<img src="slides-figures/start-line.jpg" style="position:relative; left:300px;" alt="Cartoonish figure of two cars at the start line of a racing track">
+
+<div style="text-align: center; padding-top: 0.2em;">
+
+<h3 style="text-align: center">
+An online racing game to teach Bayesian data analysis
+</h3>
+
+<h4> [Federica Zoe Ricci and Mine Dogucu (UC Irvine)]{.light-blue}  </h4>
+<h4> [eCOTS 2024]{.light-blue-2}  </h4>
+</div>
+<br>
+
+## [Moving Forward]{.orange} with teaching Statistics and Data Science
+
+- Using data that is more **relevant** to students^[[Weiland, T., & Williams, I. (2023). Culturally Relevant Data in Teaching Statistics and Data Science Courses. Journal of Statistics and Data Science Education, 1-16.]{.vsmall}]
+
+- More use of **fun**^[[Lesser, L. M., Pearl, D. K., & Weber III, J. J. (2016). Assessing fun items' effectiveness in increasing learning of college introductory statistics students: Results of a randomized experiment. Journal of Statistics Education, 24(2), 54-62.]{.vsmall}]
+
+- More teaching **Bayes**^[[Hoegh, A. (2020). Why Bayesian ideas should be introduced in the statistics curricula and how to do so. Journal of Statistics Education, 28(3), 222-228.]{.vsmall}]
+
+## [Challenges]{.orange} of teaching Bayes 
+
+<img src="slides-figures/bayesian-diagram.png" style="width: 70%; position:relative; left:10px;" alt="Diagram. A circle with the word 'Prior' in bold and a circle with the word 'Data' are both linked, with directed arrows, to a circle with the words 'Statistical inference (posterior)'">
+
+
+- **Priors** [^1]
+
+  - Where do they come from?
+  
+  - Is there _one_ correct prior?
+
+- How can people use Bayesian analysis in **real life**? <sup>1</sup>
+
+
+We think that [games]{.boldorange} can help with this
+
+[^1]:[Hu, J., & Dogucu, M. (2022). Content and computing outline of two undergraduate Bayesian courses: Tools, examples, and recommendations. Stat, 11(1), e452.]{.vsmall}
+
+
+## 
+
+<h2 style="text-align: center; font-size: 50px">
+The <a href="https://www.stat2games.sites.grinnell.edu/"> Stat2Games </a> project
+</h2>
+
+<div style="width: 70%;position:relative; left:170px;">
+<img src="slides-figures/stat2games.png" alt="Screenshot of stat2games website, showing a platform titled 'GRINNELL STATS GAMES Welcome to Stat2Games! Here you will find games that use stats to win.' with 13 different games visible. The Racer game is the one selected in this screenshot.">
+</div>
+
+<div style="line-height:1;margin:0;font-size: 15px;">
+Kuiper, S., & Sturdivant, R. X. (2015). Using online game-based simulations to strengthen students’ understanding of practical statistical issues in real-world data analysis. The American Statistician, 69(4), 354-361.
+
+George, T., Chakraborty, A., Kuiper, S. Improving students' communication about data using online statistical games. USCOTS Workshop (2023)
+</div>
+
+## Our Activity: [Context]{.orange}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- **Introduction to Bayesian Data Analysis**
+
+- 50 upper-level undergraduates
+
+- 50-minute discussion (lab)
+
+- Beta-Binomial model **already taught** in lecture
+
+:::
+
+::: {.column width="60%"}
+
+ <div style="width: 80%;position:relative; left:100px;">
+<img src="slides-figures/class.png" alt="Icons of 50 different subjects drawn looking from behind their open laptops.">
+</div>
+
+:::
+
+::::
+
+## Our Activity: [Setup]{.orange} 
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+- Teams of 4-5 students
+
+
+
+:::
+
+::: {.column width="60%"}
+
+ <div style="width: 68%;position:relative; left:190px;">
+<img src="slides-figures/class-teams-gray.png" alt="Icons of 50 different subjects drawn looking from behind their open laptops. Gray boxes underlying groups of 5 students separate the different teams visually. Each team is sent an envelope by a mechanic.">
+</div>
+
+:::
+
+::::
+
+
+## Our Activity: [Setup]{.orange} {visibility="uncounted"}
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+- Teams of 4-5 students
+
+- Letters from _racing managers_
+
+
+
+:::
+
+::: {.column width="65%"}
+
+ <div style="width: 95%;position:relative; left:83px;">
+<img src="slides-figures/class-teams-letters-gray.png" alt="Icons of 50 different subjects drawn looking from behind their open laptops. Gray boxes underlying groups of 5 students separate the different teams visually. Each team is sent an envelope by a mechanic.">
+</div>
+
+:::
+
+::::
+
+
+
+## Our Activity: [Setup]{.orange} {visibility="uncounted"}
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+- Teams of 4-5 students
+
+- Letters from _racing managers_
+
+  - Which of two tires for an upcoming race ? 
+
+
+
+:::
+
+::: {.column width="65%"}
+
+ <div style="width: 100%;position:relative; left:50px;">
+<img src="slides-figures/class-teams-letters-tires-gray.png" alt="Icons of 50 different subjects drawn looking from behind their open laptops. Gray boxes underlying groups of 5 students separate the different teams visually. Each team is sent an envelope by a mechanic. Below, two tires are displayed next to each other, separated by a question mark.">
+</div>
+
+:::
+
+::::
+
+
+## Our Activity: [Setup]{.orange} {visibility="uncounted"}
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+- Teams of 4-5 students
+
+- Letters from _racing managers_
+
+  - Which of two tires for an upcoming race ? 
+  
+  - Combine: _engineers' believes_ and _racing results_ of team members
+
+
+
+:::
+
+::: {.column width="65%"}
+
+ <div style="width: 100%;position:relative; left:50px;">
+<img src="slides-figures/class-teams-letters-tires-game-gray.png" alt="Icons of 50 different subjects drawn looking from behind their open laptops. Gray boxes underlying groups of 5 students separate the different teams visually. Each team is sent an envelope by a mechanic. Below, two tires are displayed next to each other, separated by a question mark. The icon of a finger points to them from the icon of a written letter plus the icon of a racing car.">
+</div>
+
+:::
+
+::::
+
+## Our Activity: [Prior Information]{.orange} 
+
+<img src="slides-figures/message-example.png" style="position:relative; left:0px;" alt="Message reciting: Hi team! The race on the Eight track is approaching. This year we are going to race with the HotRod car, but we haven't finalized our choice of tires. We narrowed down the choice to the HotRod tires or the Tiny tires.
+Last year, we raced with the HotRod car on a different track, the Straight track, and we were almost always faster with the Tiny tires. In fact, only 2 out of 10 times our racers finished the race faster with the HotRod tires.
+Because this year the track is different, our engineers are not sure that racing with the Tiny tires would still be faster, as they might have less friction when turning. They believe it's not very likely that the HotRod tires would be faster less than 2 out of 10 times .. but that there is some chance it could actually happen up to 6 out of 10 times on the Eight track.
+I would like you to collect some more data and give me some recommendations, based on what you find while playing but also based on our past experience and what our engineers believe.">
+
+## Our Activity: [Prior Information]{.orange} {visibility="uncounted"}
+
+<img src="slides-figures/message-example-highlighted.png" style="position:relative; left:0px;" alt="Message reciting: Hi team! The race on the Eight track is approaching. This year we are going to race with the HotRod car, but we haven't finalized our choice of tires. We narrowed down the choice to the HotRod tires or the Tiny tires.
+Last year, we raced with the HotRod car on a different track, the Straight track, and we were almost always faster with the Tiny tires. In fact, only 2 out of 10 times our racers finished the race faster with the HotRod tires.
+Because this year the track is different, our engineers are not sure that racing with the Tiny tires would still be faster, as they might have less friction when turning. They believe it's not very likely that the HotRod tires would be faster less than 2 out of 10 times .. but that there is some chance it could actually happen up to 6 out of 10 times on the Eight track.
+I would like you to collect some more data and give me some recommendations, based on what you find while playing but also based on our past experience and what our engineers believe.">
+
+
+## Our Activity: Discussion [Handout]{.orange}
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+Raw Quarto (template)
+
+::: {.scroll-container style="overflow-y: scroll; height: 500px;"}
+![](slides-figures/discussion-handout.png){fig-align="center" width="600"}
+:::
+
+:::
+
+
+::: {.column width="45%"}
+
+Rendered by one of the teams
+
+::: {.scroll-container style="overflow-y: scroll; height: 500px;"}
+![](slides-figures/team01.png){fig-align="center" width="600"}
+:::
+
+
+:::
+
+::::
+
+## Our Activity: [Data Collection]{.orange} 
+
+{{< video slides-figures/game-video.mov >}}
+
+<br>
+
+
+
+## Our Activity: Discussion [Handout]{.orange}
+
+Quarto file rendered by one of the teams
+
+::: {.scroll-container style="overflow-y: scroll; height: 500px;"}
+![](slides-figures/team01.png){fig-align="center" width="800"}
+:::
+
+
+
+## Our Activity: [Learning Goals]{.orange} 
+
+
+- practice using given information to **formulate a prior distribution**
+
+- apply the Beta-Binomial model to a **fun and real-world** application
+
+
+::: {.fragment .fade-in}
+- [observe that different priors for the same problem can be reasonable?]{.maroon}
+:::
+
+
+## Our Activity: [Setup]{.orange} 
+:::: {.columns}
+
+::: {.column width="35%"}
+
+- Teams receive _different information_ based on their managers:
+
+  - Team Danica 
+  - Team Lewis 
+  - Team Mario 
+
+- Naturally motivates different priors
+
+
+:::
+
+::: {.column width="65%"}
+
+ <div style="width: 100%;position:relative; left:50px;">
+<img src="slides-figures/class-teams-letters-tires-game-colors.png" alt="Icons of 50 different subjects drawn looking from behind their open laptops. Gray boxes underlying groups of 5 students separate the different teams visually. Each team is sent an envelope by one of three mechanics, and different mechanics correspond to differently colored envelopes  (blue, orange or yellow). Below, two tires are displayed next to each other, separated by a question mark. The icon of a finger points to them from the icon of one of three written letter (blue, orange or yellow) plus the icon of a racing car.">
+</div>
+
+:::
+
+::::
+
+
+## Our Activity: [Prior Information]{.orange} 
+
+
+<img src="slides-figures/team-letters.png" style="position:relative; left:50px;" alt="Figure showing three differently-colored letters, labeled 'Team Danica', 'Team Lewis' and 'Team Mario', communicating the same goal but differing prior information from engineers believes and past data.">
+
+## [Students']{.orange} perspectives
+
+Remarks from 32 participants (open-ended questions)
+
+
+:::: {.columns}
+
+::: {.column width="55%"}
+{{< fa microphone >}} 22 students: **Fun**
+
+{{< fa microphone >}} 17 students: **Stats understanding**
+
+{{< fa microphone >}} 15 students: **Interactive**
+
+
+:::
+
+::: {.column width="45%"}
+
+{{< fa microphone >}} 14 students: **Teamwork**
+
+{{< fa microphone >}} 9 students: **Gamification**
+
+{{< fa microphone >}} 9 students: **Data collection**
+
+:::
+
+::::
+
+
+[> _The racing game was very fun which make learning the concepts much more engaging than simply reading about a simulation in a book._]{.small}
+
+[> _Being able to use R and see how our race results impacted the posterior model had a positive impact on my learning._]{.small}
+
+[> _The activity was fun and helped me understand the process of making models._]{.small}
+
+[> _Helped us interact with other members of the class. Car game was fun._]{.small}
+
+
+## Lessons [we]{.orange} learned
+
+
+{{< fa microphone >}} 18 students: **Time**\
+
+  - **50 minutes not enough** to complete activity for all teams
+
+  - Definitely not enough for ~~**class discussion**~~
+  
+. . . 
+
+{{< fa microphone >}} 6 students: **Seating arrangement** in a row
+
+- can affect **team discussion** \
+
+. . .
+
+{{< fa thumbs-up >}} [Overall very promising]{.boldorange} 
+
+ - This activity **really engaged** students\
+ [_> I really liked it, if every discussion was like this I would have no problem going at 9:00am._]{.small}
+
+
+
+## Material [shared]{.orange}
+
+All materials developed for the activity are available at  [github.com/federicazoe/bayes-games](https://github.com/federicazoe/bayes-games):
+
+- slides to guide the activity
+
+- discussion handout (.qmd)
+
+- racing team letters & more
+
+
+
+##  {.center}
+
+<h1 style="text-align: center">
+See you at the [posterior]{.orange} line
+</h1>
+
+
+<img src="slides-figures/finish-line.jpg" style="position:relative; left:260px;" alt="Cartoonish figure of three cars at the finish line of a racing track">
+
+
+<div style="text-align: center; padding-top: 0.2em;">
+
+<h3 style="text-align: center">
+ Live eCOTS session
+</h3>
+
+<h3 style="text-align: center">
+ [Tuesday, June 11th, 2:40 pm – 3:25 pm ET](https://www.causeweb.org/cause/ecots/ecots24/program/posters/19)
+</h3>
+
+</div>
+<br>
+
