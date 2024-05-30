@@ -245,7 +245,7 @@ Rendered by one of the teams
 
 ::::
 
-## Our Activity: [Data Collection]{.orange} 
+## Our Activity: [Data Collection]{.orange} [{{< fa link >}} ](https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html)
 
 {{< video slides-figures/game-video.mov >}}
 
