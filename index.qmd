@@ -28,7 +28,7 @@ _'Where do priors come from? Should there only be one correct prior? What can pe
 
 ## Material
 
-The folder [activity-material](https://github.com/federicazoe/bayes-games/tree/main/activity-material) includes:
+The folder [activity-material](https://github.com/federicazoe/bayes-games/tree/main/activity-material) in the [{{< fa brands github >}} GitHub repository federicazoe/bayes-games](https://github.com/federicazoe/bayes-games)  includes:
 
 - `team-names.md`: names of three team types, with a short bio of the person inspiring the name. Names and bios were used to label team-specific, physical envelopes with team names printed on them e.g. team-danica-1, team-danica-2, ..., team-lewis-1, team-lewis-2, ..., team-mario-1, team-mario-2, ...
 
@@ -40,13 +40,13 @@ The folder [activity-material](https://github.com/federicazoe/bayes-games/tree/m
 
 - `discussion-slides.qmd`: slides used in class to introduce and run the activity.
 
-### External Resources
+## External Resources
 
 - Other game-based activities for teaching statistics: [Stat2labs](https://stat2labs.sites.grinnell.edu/)
 
 - More online games for teaching statistics:  [Stat2games](https://www.stat2games.sites.grinnell.edu/)
 
-### References
+## References
 
 - Kuiper, S., & Sturdivant, R. X. (2015). Using online game-based simulations to strengthen students’ understanding of practical statistical issues in real-world data analysis. The American Statistician, 69(4), 354-361.
 
