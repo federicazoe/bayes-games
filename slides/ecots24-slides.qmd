@@ -185,8 +185,8 @@ George, T., Chakraborty, A., Kuiper, S. Improving students' communication about 
 - Letters from _racing managers_
 
   - Which of two tires for an upcoming race ? 
-  
-  - Combine: _engineers' believes_ and _racing results_ of team members
+  e
+  - Combine: _engineers' beliefs_ and _racing results_ of team members
 
 
 
@@ -306,7 +306,7 @@ Quarto file rendered by one of the teams
 ## Our Activity: [Prior Information]{.orange} 
 
 
-<img src="slides-figures/team-letters.png" style="position:relative; left:50px;" alt="Figure showing three differently-colored letters, labeled 'Team Danica', 'Team Lewis' and 'Team Mario', communicating the same goal but differing prior information from engineers believes and past data.">
+<img src="slides-figures/team-letters.png" style="position:relative; left:50px;" alt="Figure showing three differently-colored letters, labeled 'Team Danica', 'Team Lewis' and 'Team Mario', communicating the same goal but differing prior information from engineers beliefs and past data.">
 
 ## [Students']{.orange} perspectives
 
