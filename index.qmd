@@ -1,5 +1,5 @@
 ---
-title: "See you at the Posterior Line: <br> learning Bayesian modeling <br> using an online racing game"
+title: "See you at the Posterior Line: <br> learning Bayesian modeling using an online racing game"
 title-block-banner: true
 format:
   html:
