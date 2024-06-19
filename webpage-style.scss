@@ -21,21 +21,20 @@ $headings-font-weight:  500 !default;
 
 /*-- scss:rules --*/
 
+.quarto-title {
+  font-size: 300px;
+  color: $orangeColor;
+}
 
 .quarto-title-block .quarto-title-banner {
   background-image: url(https://github.com/federicazoe/bayes-games/blob/main/figures/game-icon.png?raw=true);
   background-color: #d1e6f2;
   background-size: 10%;
-  background-position: left;
+  background-position: right;
   background-repeat: no-repeat;
   padding-left: 30px;
   padding-right: 50px;
   background-origin: content-box;
-}
-
-
-.quarto-title {
-  font-size: 300px;
   color: $orangeColor;
 }
 
@@ -65,7 +64,7 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
     content: ' ';
-    background: white;
+    background: $backgroundWhite;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
@@ -81,3 +80,9 @@ ul.timeline > li:before {
 h6 {
   font-weight: bold;
 }
+
+h1 {
+  color: $orangeColor;
+}
+
+

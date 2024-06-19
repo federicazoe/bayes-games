@@ -1,5 +1,5 @@
 ---
-title: "See you at the Posterior Line: <br> using an online racing game to teach Bayesian data analysis"
+title: "See you at the Posterior Line: <br> learning Bayesian modeling <br> using an online racing game"
 title-block-banner: true
 format:
   html:
@@ -9,6 +9,7 @@ format:
     theme: 
       -  webpage-style.scss
     page-layout: full
+    title-block-banner-color: "#f58200"
 ---
 
 
@@ -20,25 +21,29 @@ This work was [presented at eCOTS 2024](https://www.causeweb.org/cause/ecots/eco
 
 _'Where do priors come from? Should there only be one correct prior? What can people do with Bayesian statistics in real life?’ These are common questions students have when introduced to Bayesian ideas, and providing satisfying answers can be challenging. We present an activity designed to make students practice the Bayesian sequential-learning framework in a realistic and fun setting, based on the Racer game (from Stat2labs.com). Acting like the analysts of a racing team, students are asked to help their manager decide which type of tires to use for an upcoming race, based both on prior knowledge from their team’s engineers and on data they collect in class by playing the racing game. Some teams discuss with the class: what prior distribution they chose, the data they collected and their posteriors. As some teams received different prior information, students reflect on the legitimacy of choosing different priors and on how they all used Bayesian statistics to quantify uncertainty in this problem. We discuss our experience with implementing this activity for a discussion (i.e., lab) session of an Introduction to Bayesian Data Analysis class with upper-level undergraduates at a research university and the students' perception of this activity as reported in a survey._
 
+## Material
+
+The folder [activity-material](https://github.com/federicazoe/bayes-games/tree/main/activity-material) in the [{{< fa brands github >}} GitHub repository federicazoe/bayes-games](https://github.com/federicazoe/bayes-games)  includes:
+
+- [`discussion-handout.qmd`](https://github.com/federicazoe/bayes-games/blob/main/activity-material/discussion-handout.qmd): template to fill out for each team, that guides through the activity, has questions and code. Each team made their own copy of this file, that they accessed via a link on the course's website.
+
+- [`discussion-handout-team01.qmd`](https://github.com/federicazoe/bayes-games/blob/main/activity-material/discussion-handout-team01.qmd): example of how discussion handout completed by one of the teams.
+
+- [`team-names.md`](https://github.com/federicazoe/bayes-games/blob/main/activity-material/team-names.md): names of three team types, with a short bio of the person inspiring the name. Names and bios were used to label team-specific, physical envelopes with team names printed on them e.g. team-danica-1, team-danica-2, ..., team-lewis-1, team-lewis-2, ..., team-mario-1, team-mario-2, ...
+
+- [`team-scenarios.md`](https://github.com/federicazoe/bayes-games/blob/main/activity-material/team-scenarios.md): Content of the letters with prior information and instructions. There were three letters, corresponding to the three team types. A copy of this information was printed for each team member  and included in teams' envelopes.
+
+- [`team-member-roles.md`](https://github.com/federicazoe/bayes-games/blob/main/activity-material/team-member-roles.md): Each team member was responsible for an essential component of the activity (e.g. facilitating team discussion, filling out discussion handout). Cards with role names and their descriptions were included in team envelopes' and teams distributed them among their members, at random.
+
+- [`discussion-slides.qmd`](https://github.com/federicazoe/bayes-games/blob/main/activity-material/discussion-slides.qmd): slides used in class to explain and guide the activity.
+
+
 ## Video
 
 <video width="600" height="450" controls="controls autoplay">
   <source src="ecots24-bayes-games-compressed.mp4" type="video/mp4" />
 </video>
 
-## Material
-
-The folder [activity-material](https://github.com/federicazoe/bayes-games/tree/main/activity-material) in the [{{< fa brands github >}} GitHub repository federicazoe/bayes-games](https://github.com/federicazoe/bayes-games)  includes:
-
-- `team-names.md`: names of three team types, with a short bio of the person inspiring the name. Names and bios were used to label team-specific, physical envelopes with team names printed on them e.g. team-danica-1, team-danica-2, ..., team-lewis-1, team-lewis-2, ..., team-mario-1, team-mario-2, ...
-
-- `team-scenarios.md`: prior information given to different team types. A copy of this information was printed for each team member  and included in teams' envelopes.
-
-- `team-member-roles.md`: different team roles were assigned to team members at random (by including cards with the role names in team envelopes' and having students distribute these cards).
-
-- `discussion-handout.qmd`: template to fill out for each team, that guides through the activity, has questions and code. Each team made their own copy of this file, that they accessed via a link on the course's website.
-
-- `discussion-slides.qmd`: slides used in class to introduce and run the activity.
 
 ## External Resources
 
