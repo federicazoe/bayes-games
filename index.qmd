@@ -15,7 +15,7 @@ format:
 
 Activity created by [Federica Zoe Ricci](https://federicazoe.github.io/) and [Mine Dogucu](https://www.minedogucu.com/) to practice the Beta-Binomial model.\
 The activity is designed around the online racing game [Racer](https://www.stat2games.sites.grinnell.edu/games/raceradvanced22.html).\
-This work was [presented at eCOTS 2024](https://www.causeweb.org/cause/ecots/ecots24/program/posters/19). The slides are available [here](https://federicazoe.github.io/bayes-games/slides/ecots24-slides.html#/section). 
+In summer 2024 this work was presented [at eCOTS](https://www.causeweb.org/cause/ecots/ecots24/program/posters/19) and [BAYSM](https://events.stat.uconn.edu/BAYSM2024/). The slides are available [here](https://federicazoe.github.io/bayes-games/slides/ecots24-slides.html#/section). 
 
 ## Abstract
 
